@@ -19,18 +19,13 @@ body {
     border: 3px solid black;
     border-top-left-radius: 75px;
     border-top-right-radius: 75px;
-    background: linear-gradient(
+    background: repeating-linear-gradient(
         315deg,
-        red 0%, red 10%,
-        blue 10%, blue 20%,
-        yellow 20%, yellow 30%,
-        green 30%, green 40%,
-        purple 40%, purple 50%,
-        red 50%, red 60%,
-        blue 60%, blue 70%,
-        yellow 70%, yellow 80%,
-        green 80%, green 90%,
-        purple 90%, purple 100%
+        rgba(255,252,84,1) 0%, rgba(255,252,84,1) 10%,
+        rgba(116,101,230,1) 10%, rgba(116,101,230,1) 20%,
+        rgba(239,137,239,1) 20%, rgba(239,137,239,1) 30%,
+        rgba(138,250,77,1) 30%, rgba(138,250,77,1) 40%,
+        rgba(116,251,253,1) 40%, rgba(116,251,253,1) 50%
     );
     background-size: 200% 200%;
     animation: popsicle-animation 5s linear infinite forwards;
